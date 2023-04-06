@@ -24,3 +24,13 @@
     margin: auto;
     margin-top: 1em;
 }
+
+.btn-del{
+    display:none
+}
+
+#todos > li:hover .btn-del{
+    background-color: var(--bs-cyan);
+    font-weight: 800;
+    cursor: pointer;
+}
